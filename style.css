@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header__tel--number a,
+.footer__top--tel a {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 135%;
+  color: #22232d;
+}
+
+.header__tel--info,
+.footer__top--info {
+  font-size: 14px;
+  line-height: 135%;
+  color: #666666;
+}
+
+section {
+  height: 300px;
+}
+
+footer {
+  background-color: #f3f3f4;
+  height: auto;
+  padding-top: 39px;
+  padding-bottom: 30px;
+}
+
+.footer__bottom--copyright {
+  font-size: 14px;
+  line-height: 135%;
+  text-align: center;
+  color: #999999;
+}
+
+.footer__top--margin {
+  margin-right: 60px;
+}
+
+@media (max-width: 1200px) {
+  .footer__top--info,
+  .header__tel--info {
+    display: none;
+  }
+
+  .footer__top--link {
+    flex-direction: column;
+  }
+
+  .footer__top--margin {
+    margin-right: 0;
+  }
+}
