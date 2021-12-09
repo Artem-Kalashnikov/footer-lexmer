@@ -45,9 +45,26 @@ footer {
 }
 
 @media (max-width: 1200px) {
+  .footer__top--link {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 479px) {
   .footer__top--info,
   .header__tel--info {
     display: none;
+  }
+
+  .header__logo img {
+    width: 120px;
+    height: 20px;
+    padding-right: 0;
+  }
+
+  .header__tel .header__tel--number a {
+    font-size: 17px;
+    padding-left: 0;
   }
 
   .footer__top--link {
