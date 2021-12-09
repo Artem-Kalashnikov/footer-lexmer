@@ -27,6 +27,38 @@
   color: #666666;
 }
 
+.header__tel--graph {
+  display: none;
+}
+
+.header__tel:hover .header__tel--graph {
+  display: block;
+  padding: 20px 25px;
+  margin-top: 4px;
+  background-color: #f3f3f4;
+  width: 225px;
+  height: 127px;
+  right: 0px;
+  position: absolute;
+}
+
+.header__tel--text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 135%;
+  color: #000000;
+}
+
+.headre__tel--day {
+  font-size: 15px;
+  line-height: 140%;
+  color: #333333;
+}
+
+.header__tel--graph .header__tel--info {
+  font-size: 13px;
+}
+
 section {
   height: 300px;
 }
