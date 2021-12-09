@@ -37,6 +37,16 @@ footer {
   padding: 25px 0 30px;
 }
 
+.footer__top--item {
+  font-size: 16px;
+  line-height: 135%;
+  color: #000000;
+}
+
+.footer__top--tel {
+  text-align: right;
+}
+
 .footer__bottom--copyright {
   font-size: 14px;
   line-height: normal;
@@ -51,7 +61,6 @@ footer {
 }
 
 @media (max-width: 479px) {
-  .footer__top--info,
   .header__tel--info {
     display: none;
   }
@@ -62,9 +71,26 @@ footer {
     padding-right: 0;
   }
 
-  .header__tel .header__tel--number a {
+  .header__tel .header__tel--number a,
+  .footer__top .footer__top--tel a {
     font-size: 17px;
     padding-left: 0;
+  }
+
+  .footer__top--info {
+    font-size: 12px;
+  }
+
+  .footer__top {
+    flex-direction: column;
+  }
+
+  .footer__top--item {
+    font-size: 15px;
+  }
+
+  .footer__top--tel {
+    text-align: left;
   }
 
   .footer__top--link {
