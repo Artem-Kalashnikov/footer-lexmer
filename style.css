@@ -4,18 +4,26 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.header__top {
+  height: 80px;
+}
+
+.footer__top {
+  margin-bottom: 30px;
+}
+
 .header__tel--number a,
 .footer__top--tel a {
   text-decoration: none;
   font-size: 24px;
-  line-height: 135%;
+  line-height: 2rem;
   color: #22232d;
 }
 
 .header__tel--info,
 .footer__top--info {
   font-size: 14px;
-  line-height: 135%;
+  line-height: 1rem;
   color: #666666;
 }
 
@@ -26,19 +34,14 @@ section {
 footer {
   background-color: #f3f3f4;
   height: auto;
-  padding-top: 39px;
-  padding-bottom: 30px;
+  padding: 25px 0 30px;
 }
 
 .footer__bottom--copyright {
   font-size: 14px;
-  line-height: 135%;
+  line-height: normal;
   text-align: center;
   color: #999999;
-}
-
-.footer__top--margin {
-  margin-right: 60px;
 }
 
 @media (max-width: 1200px) {
@@ -49,9 +52,5 @@ footer {
 
   .footer__top--link {
     flex-direction: column;
-  }
-
-  .footer__top--margin {
-    margin-right: 0;
   }
 }
