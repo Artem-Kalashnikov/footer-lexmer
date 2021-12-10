@@ -38,7 +38,7 @@
   background-color: #f3f3f4;
   width: 225px;
   height: 127px;
-  right: 13px;
+  right: 0px;
   position: absolute;
 }
 
@@ -67,6 +67,10 @@ footer {
   background-color: #f3f3f4;
   height: auto;
   padding: 25px 0 30px;
+}
+
+.footer__top {
+  align-items: center;
 }
 
 .footer__top--item {
@@ -109,6 +113,10 @@ footer {
     padding-left: 0;
   }
 
+  .footer__top {
+    align-items: unset;
+  }
+
   .footer__top--info {
     font-size: 12px;
   }
@@ -127,5 +135,9 @@ footer {
 
   .footer__top--link {
     flex-direction: column;
+  }
+
+  .footer__bottom--copyright {
+    text-align: start;
   }
 }
