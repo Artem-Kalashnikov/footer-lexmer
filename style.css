@@ -94,9 +94,22 @@ footer {
   .footer__top--link {
     margin-top: 35px;
   }
+  .footer__top {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 25px 0 25px;
+  }
 }
 
 @media (max-width: 479px) {
+  header {
+    box-shadow: 0px 1px 0px #bfbfbf;
+  }
+
   .header__tel--info {
     display: none;
   }
@@ -105,6 +118,26 @@ footer {
     width: 120px;
     height: 20px;
     padding-right: 0;
+  }
+
+  footer {
+    padding: 22px 0;
+  }
+
+  .footer__top {
+    margin-bottom: 20px;
+  }
+
+  .footer__top--link {
+    margin-top: 5px;
+  }
+
+  .footer__top--item {
+    margin-top: 10px;
+  }
+
+  .footer__top--tel {
+    margin-top: 15px;
   }
 
   .header__tel .header__tel--number a,
